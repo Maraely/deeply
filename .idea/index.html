@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deeply - Guided Meditation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Nunito Sans', sans-serif;
+      text-align: center;
+    }
+    .header-container {
+      width: 100%;
+      background: white;
+      padding: 20px 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #72C8FC;
+      font-family: 'Young Serif', serif;
+    }
+    .nav {
+      font-size: 16px;
+    }
+    .nav a {
+      text-decoration: none;
+      color: #72C8FC;
+      margin-left: 20px;
+    }
+    .hero-section {
+      background: url('images/background1.png') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 20px 0;
+    }
+    .main-title {
+      font-size: 48px;
+      font-family: 'Young Serif', serif;
+      color: black;
+      line-height: 1.2;
+      margin-top: -700px;
+    }
+    .button-container {
+      position: absolute;
+      bottom: 10%;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .button {
+      background-color: #F6E0F6;
+      padding: 12px 25px;
+      border-radius: 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-family: 'Nunito Sans', sans-serif;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 150px;
+    }
+    .button:hover {
+      background-color: #e8cce8;
+    }
+    .subtext {
+      font-size: 18px;
+      color: gray;
+      margin-left: 10px;
+      display: block;
+      margin-top: 15px;
+      margin-top: 150px;
+    }
+    .info-section {
+      width: 100%;
+      background: #B8E3FD;
+      padding: 80px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .info-content {
+      display: flex;
+      justify-content: space-around;
+      max-width: 1000px;
+      width: 100%;
+    }
+    .info-box {
+      width: 30%;
+      text-align: center;
+    }
+    .info-box img {
+      width: 100px;
+      height: 100px;
+    }
+    .info-box h3 {
+      font-family: 'Young Serif', serif;
+      font-size: 20px;
+    }
+    .info-box p {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 16px;
+    }
+    .cta-section {
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .cta-section h2 {
+      font-family: 'Young Serif', serif;
+      font-size: 32px;
+      font-weight: bold;
+    }
+    .cta-section p {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+<div class="header-container">
+  <div class="header">
+    <div class="logo">Deeply</div>
+    <div class="nav">
+      <a href="#">About us</a>
+      <a href="#">Help</a>
+    </div>
+  </div>
+</div>
+
+<section class="hero-section">
+  <h1 class="main-title">Guided Meditation for <br> Stressed Teens</h1>
+  <div class="button-container">
+    <button class="button">Find Peace</button>
+    <span class="subtext"><span class="with">with</span> <span class="deeply">Deeply</span></span>
+  </div>
+</section>
+
+<section class="info-section">
+  <div class="info-content">
+    <div class="info-box">
+      <img src="images/verde.png" alt="cartoon character deep thinking">
+      <h3>Feeling overwhelmed?</h3>
+      <p>School stress, social pressure, and overthinking—take a deep breath, we've got you.</p>
+    </div>
+    <div class="info-box">
+      <img src="images/rosa.png" alt="hijab cartoon stress reading">
+      <h3>Exam stress?</h3>
+      <p>Quick meditations designed to help you clear your mind and boost concentration.</p>
+    </div>
+    <div class="info-box">
+      <img src="images/blu.png" alt="Black girl cartoon with smartphone">
+      <h3>No Time?</h3>
+      <p>Meditate in just 5 minutes—whenever and wherever you need it most.</p>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <h2>Your Calm is Just One Tap Away</h2>
+  <p>Tap. Breathe. Relax. Deeply makes it that simple.</p>
+  <button class="button">Try it now</button>
+</section>
+<section class="meditation-section section">
+  <img src="images/screen1.png" alt="App screen 1">
+  <h2>Guided Meditations That Hit Different</h2>
+  <p>With just a few minutes, you can hit pause, clear your mind, and chill.</p>
+  <p><strong>Deeply</strong> is your go-to for instant calm.</p>
+  <img src="images/screen2.png" alt="App screen 2">
+</section>
+
+<section class="reviews-section section">
+  <img src="images/kids.png" alt="High school students using Deeply">
+  <h2>High School Students Love Deeply for Stress</h2>
+  <p>High school students can’t get enough of Deeply! It’s more than just an app, it’s a must-have for staying chill.</p>
+  <p>⭐ ⭐ ⭐ ⭐ ☆</p>
+</section>
+
+<section class="extra-info-section section">
+  <h2>More Ways to Stay Calm</h2>
+  <p>Additional resources and tips for stress-free living.</p>
+  <img src="images/resources.png" alt="Calm resources">
+</section>
+
+<footer class="footer">
+  <h3>Deeply</h3>
+  <ul>
+    <li>Home</li>
+    <li>About Us</li>
+    <li>Features</li>
+    <li>Contact</li>
+  </ul>
+</footer>
+</body>
+</html>
+
