@@ -9,6 +9,7 @@
 
   gtag('config', 'G-7JDQ06D8H8');
 </script>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
   <style>
     body {
       margin: 0;
@@ -23,6 +26,10 @@
       font-family: 'Nunito Sans', sans-serif;
       text-align: center;
     }
+
+
+    /*  HEADER  */
+
     .header-container {
       width: 100%;
       background: white;
@@ -32,6 +39,7 @@
       left: 0;
       z-index: 1000;
     }
+
     .header {
       display: flex;
       justify-content: space-between;
@@ -40,20 +48,27 @@
       max-width: 1200px;
       margin: auto;
     }
+
     .logo {
-      font-size: 28px;
+      font-size: 30px;
       font-weight: bold;
       color: #72C8FC;
       font-family: 'Young Serif', serif;
     }
+
     .nav {
       font-size: 16px;
     }
+
     .nav a {
       text-decoration: none;
       color: #72C8FC;
       margin-left: 20px;
     }
+
+
+    /*  HERO  */
+
     .hero-section {
       background: url('images/background1.png') no-repeat center center/cover;
       height: 100vh;
@@ -61,45 +76,53 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      padding: 100px 20px 0;
+      padding: 80px 20px 0;
+      position: relative;
     }
+
     .main-title {
-      font-size: 48px;
+      font-size: 55px;
       font-family: 'Young Serif', serif;
       color: black;
       line-height: 1.2;
-      margin-top: -700px;
+      margin-top: -100px;
     }
+
+
     .button-container {
-      position: absolute;
-      bottom: 10%;
       display: flex;
       align-items: center;
-      gap: 10px;
+      gap: 15px;
+      margin-top: 500px;
     }
+
     .button {
       background-color: #F6E0F6;
-      padding: 12px 25px;
+      padding: 15px 40px;
       border-radius: 30px;
-      font-size: 18px;
+      font-size: 25px;
       font-weight: bold;
       border: none;
       cursor: pointer;
       font-family: 'Nunito Sans', sans-serif;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-      margin-top: 150px;
     }
+
     .button:hover {
       background-color: #e8cce8;
     }
+
     .subtext {
       font-size: 18px;
       color: gray;
       margin-left: 10px;
       display: block;
       margin-top: 15px;
-      margin-top: 150px;
     }
+
+
+    /*  INFO  */
+
     .info-section {
       width: 100%;
       background: #B8E3FD;
@@ -108,41 +131,252 @@
       flex-direction: column;
       align-items: center;
     }
+
     .info-content {
       display: flex;
-      justify-content: space-around;
-      max-width: 1000px;
+      justify-content: space-between;
+      align-items: stretch;
+      max-width: 1100px;
       width: 100%;
+      gap: 40px;
     }
+
     .info-box {
       width: 30%;
       text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
     }
-    .info-box img {
-      width: 100px;
-      height: 100px;
-    }
+
+
     .info-box h3 {
       font-family: 'Young Serif', serif;
-      font-size: 20px;
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 20px;
     }
+
     .info-box p {
       font-family: 'Nunito Sans', sans-serif;
       font-size: 16px;
+      color: #444;
+      line-height: 1.5;
+      margin-top: 10px;
+      flex-grow: 1;
     }
+
+
+
+    /*  CALL-TO-ACTION (CTA) */
+
     .cta-section {
       text-align: center;
       padding: 80px 20px;
+      background: white;
     }
+
+    /* CTA Header */
     .cta-section h2 {
       font-family: 'Young Serif', serif;
       font-size: 32px;
       font-weight: bold;
+      margin-bottom: 10px;
     }
+
+    /* CTA Subheader */
     .cta-section p {
       font-family: 'Nunito Sans', sans-serif;
       font-size: 18px;
+      color: #444;
     }
+
+    /* CTA Button */
+    .cta-button {
+      background-color: #F6E0F6;
+      padding: 15px 40px;
+      border-radius: 30px;
+      font-size: 22px;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-family: 'Nunito Sans', sans-serif;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 20px;
+    }
+
+    .cta-button:hover {
+      background-color: #e8cce8;
+    }
+
+
+    /*MEDITATION*/
+    .meditation-section {
+      background-color: white; /* White page background */
+      padding: 120px 0; /* Increased space */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .yellow-box {
+      position: relative; /* Ensures correct positioning */
+      background-color: #FFFBD9;
+      width: 85%;
+      padding: 80px;
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+    }
+
+    .meditation-content {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .meditation-content h2 {
+      font-family: 'Young Serif', serif;
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .meditation-content p {
+      font-family: 'Circular', sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    /* Adjusted Side Image Positions */
+    .side-image {
+      width: 220px; /* Set image width */
+      height: auto;
+      position: absolute;
+    }
+
+    /* Left image (Higher and tilted towards the center) */
+    .left {
+      left: -80px;
+      top: -60px; /* Moves image higher */
+      transform: rotate(-12deg);
+    }
+
+    /* Right image (Lower and tilted towards the center) */
+    .right {
+      right: -80px;
+      bottom: -80px; /* Moves image lower */
+      transform: rotate(12deg);
+    }
+
+    /* Audio Player Styling */
+    .audio-player audio {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+      outline: none;
+    }
+
+
+    /* REVIEW */
+    .reviews-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      padding: 60px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .reviews-section img {
+      width: 45%;
+      border-radius: 10px;
+    }
+
+    .review-text {
+      max-width: 50%;
+      text-align: left;
+    }
+
+    .review-text h2 {
+      font-family: 'Young Serif', serif;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    .review-text p {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+      color: #444;
+    }
+
+    /* Star Ratings */
+    .star-rating {
+      font-size: 24px;
+      color: black;
+    }
+
+    /* FOOTER */
+    /* FOOTER */
+    .footer {
+      background-color: #B8E3FD; /* Blue background */
+      padding: 40px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+    }
+
+    .footer-left {
+      display: flex;
+      flex-direction: column; /* Stack logo and links */
+    }
+
+    .footer-logo {
+      font-family: 'Young Serif', serif;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .footer-links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-links li {
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+
+    /* Social Media Icons */
+    .social-icons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-icons a {
+      font-size: 24px;
+      color: white;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    .social-icons a:hover {
+      color: #ddd;
+    }
+
+
+
+
   </style>
 </head>
 <body>
@@ -189,36 +423,56 @@
   <p>Tap. Breathe. Relax. Deeply makes it that simple.</p>
   <button class="button">Try it now</button>
 </section>
-<section class="meditation-section section">
-  <img src="images/screen1.png" alt="App screen 1">
-  <h2>Guided Meditations That Hit Different</h2>
-  <p>With just a few minutes, you can hit pause, clear your mind, and chill.</p>
-  <p><strong>Deeply</strong> is your go-to for instant calm.</p>
-  <img src="images/screen2.png" alt="App screen 2">
+
+<section class="meditation-section">
+  <div class="yellow-box">
+    <img src="images/screen2.png" alt="App screen 2" class="side-image left">
+    <div class="meditation-content">
+      <h2>Guided Meditations That Hit Different</h2>
+      <p>With just a few minutes, you can hit pause, clear your mind, and chill.</p>
+      <p>Whether it’s before class, after a rough day, or when your brain just won’t shut off, <strong>Deeply</strong> is your go-to for instant calm.</p>
+      <div class="audio-player">
+        <audio controls>
+          <source src="audio/meditation.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <img src="images/screen1.png" alt="App screen 1" class="side-image right">
+  </div>
 </section>
 
-<section class="reviews-section section">
+
+<!-- REVIEW SECTION -->
+<section class="reviews-section">
   <img src="images/kids.png" alt="High school students using Deeply">
-  <h2>High School Students Love Deeply for Stress</h2>
-  <p>High school students can’t get enough of Deeply! It’s more than just an app, it’s a must-have for staying chill.</p>
-  <p>⭐ ⭐ ⭐ ⭐ ☆</p>
-</section>
-
-<section class="extra-info-section section">
-  <h2>More Ways to Stay Calm</h2>
-  <p>Additional resources and tips for stress-free living.</p>
-  <img src="images/resources.png" alt="Calm resources">
+  <div class="review-text">
+    <h2>High School Students Love Deeply for Stress</h2>
+    <p>High school students can’t get enough of Deeply! It’s more than just an app, it’s a must-have for staying chill.</p>
+    <p>Join the movement and try <strong>Deeply</strong> today!</p>
+    <div class="star-rating">⭐ ⭐ ⭐ ⭐ ☆</div>
+  </div>
 </section>
 
 <footer class="footer">
-  <h3>Deeply</h3>
-  <ul>
-    <li>Home</li>
-    <li>About Us</li>
-    <li>Features</li>
-    <li>Contact</li>
-  </ul>
+  <div class="footer-left">
+    <div class="footer-logo">Deeply</div>
+    <ul class="footer-links">
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Features</li>
+      <li>Contact</li>
+    </ul>
+  </div>
+  <div class="social-icons">
+    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+  </div>
+
 </footer>
+
+
+
 </body>
 </html>
 
