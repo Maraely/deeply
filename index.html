@@ -80,39 +80,35 @@
       position: relative;
     }
 
-    /* MAIN TITLE */
     .main-title {
       font-size: 55px;
       font-family: 'Young Serif', serif;
       color: black;
       line-height: 1.2;
-      position: absolute;  /* Posiziona indipendentemente */
-      top: 5%;  /* Modifica questa percentuale per spostarlo più su o giù */
+      position: absolute;
+      top: 5%;
       text-align: center;
     }
 
-    /* SUBTITLE */
     .hero-subtitle {
       font-size: 30px;
       font-family: 'Nunito Sans', sans-serif;
       font-weight: 400;
       color: #444;
       position: absolute;
-      top: 72%; /* Modifica per regolare la posizione sotto l'header */
+      top: 72%;
       text-align: center;
     }
 
-    /* BUTTON CONTAINER */
     .button-container {
       display: flex;
       align-items: center;
       gap: 15px;
-      position: absolute;  /* Ora è indipendente dal resto */
-      top: 80%;  /* Cambia questa percentuale per regolarlo più su o giù */
+      position: absolute;
+      top: 80%;
       text-align: center;
     }
 
-    /* BUTTON */
     .button {
       background-color: #F6E0F6;
       padding: 15px 40px;
@@ -129,7 +125,6 @@
       background-color: #e8cce8;
     }
 
-    /* SUBTEXT */
     .subtext {
       font-size: 20px;
       color: gray;
@@ -158,7 +153,6 @@
       gap: 40px;
     }
 
-    /* Info Box */
     .info-box {
       width: 30%;
       text-align: center;
@@ -169,7 +163,6 @@
       padding: 20px;
     }
 
-    /* Title */
     .info-box h3 {
       font-family: 'Young Serif', serif;
       font-size: 25px;
@@ -177,7 +170,6 @@
       margin-top: 20px;
     }
 
-    /* Text */
     .info-box p {
       font-family: 'Nunito Sans', sans-serif;
       font-size: 20px;
@@ -189,14 +181,12 @@
 
 
     /*  CALL-TO-ACTION (CTA) */
-
     .cta-section {
       text-align: center;
       padding: 80px 20px;
       background: white;
     }
 
-    /* CTA Header */
     .cta-section h2 {
       font-family: 'Young Serif', serif;
       font-size: 32px;
@@ -204,14 +194,12 @@
       margin-bottom: 10px;
     }
 
-    /* CTA Subheader */
     .cta-section p {
       font-family: 'Nunito Sans', sans-serif;
       font-size: 18px;
       color: #444;
     }
 
-    /* CTA Button */
     .cta-button {
       background-color: #F6E0F6;
       padding: 15px 40px;
@@ -232,20 +220,19 @@
 
     /* MEDITATION SECTION */
     .meditation-section {
-      background-color: white; /* White page background */
-      padding: 150px 0; /* Increased space */
+      background-color: white;
+      padding: 150px 0;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
     }
 
-    /* Yellow Box - Increased height */
     .yellow-box {
-      position: relative; /* Ensures correct positioning */
+      position: relative;
       background-color: #FFFBD9;
       width: 85%;
-      padding: 100px 50px; /* Increased padding for more space */
+      padding: 100px 50px;
       border-radius: 20px;
       display: flex;
       align-items: center;
@@ -254,18 +241,17 @@
       text-align: center;
     }
 
-    /* Content inside the yellow box */
     .meditation-content {
       max-width: 700px;
       text-align: center;
       display: flex;
-      flex-direction: column; /* Ensure vertical stacking */
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      gap: 25px; /* Adds spacing between elements */
+      gap: 25px;
     }
 
-    /* Heading */
+    /*  */
     .meditation-content h2 {
       font-family: 'Young Serif', serif;
       font-size: 32px;
@@ -275,28 +261,26 @@
     .meditation-content p {
       font-family: 'Nunito Sans', sans-serif;
       font-size: 22px;
-      line-height: 1.2; /* Reduced from 1.5 to 1.2 */
+      line-height: 1.2;
       color: #444;
-      margin-bottom: 8px; /* Reduce bottom margin */
+      margin-bottom: 8px;
     }
 
 
-    /* AUDIO PLAYER */
     .audio-player {
       width: 100%;
       display: flex;
-      justify-content: center; /* Center the audio player */
+      justify-content: center;
       margin-top: 20px;
     }
 
     .audio-player audio {
       width: 100%;
-      max-width: 500px; /* Ensure it doesn't stretch too much */
+      max-width: 500px;
       border-radius: 10px;
       outline: none;
     }
 
-    /* BUTTON */
     .meditation-button {
       background-color: #F6E0F6;
       padding: 15px 40px;
@@ -307,32 +291,30 @@
       cursor: pointer;
       font-family: 'Nunito Sans', sans-serif;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-      margin-top: 20px; /* Space from audio bar */
+      margin-top: 20px;
     }
 
     .meditation-button:hover {
       background-color: #e8cce8;
     }
 
-    /* Adjusted Side Image Positions */
     .side-image {
       display: block;
-      width: 320px; /* Set image width */
+      width: 320px;
       height: auto;
       position: absolute;
     }
 
-    /* Left image (Higher and tilted towards the center) */
     .left {
       left: -50px;
-      top: -60px; /* Moves image higher */
+      top: -60px;
       transform: rotate(9deg);
     }
 
-    /* Right image (Lower and tilted towards the center) */
+
     .right {
       right: -50px;
-      bottom: -80px; /* Moves image lower */
+      bottom: -80px;
       transform: rotate(-10deg);
     }
 
@@ -346,7 +328,7 @@
       padding: 60px;
       max-width: 1200px;
       margin: auto;
-      flex-direction: row; /* Ensures side-by-side layout */
+      flex-direction: row;
     }
 
     .reviews-section img {
@@ -359,7 +341,7 @@
       text-align: left;
       display: flex;
       flex-direction: column;
-      align-items: flex-start; /* Align text to the left */
+      align-items: flex-start;
     }
 
     .review-text h2 {
@@ -375,14 +357,12 @@
       color: #444;
     }
 
-    /* Star Ratings */
     .star-rating {
       font-size: 24px;
       color: black;
-      margin: 10px 0; /* Spacing above the button */
+      margin: 10px 0;
     }
 
-    /* Button Styling */
     .review-button {
       background-color: #F6E0F6;
       padding: 15px 40px;
@@ -393,7 +373,7 @@
       cursor: pointer;
       font-family: 'Nunito Sans', sans-serif;
       box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-      margin-top: 15px; /* Space from the rating */
+      margin-top: 15px;
     }
 
     .review-button:hover {
@@ -411,7 +391,6 @@
       margin: auto;
     }
 
-    /* Individual Testimonial Box */
     .testimonials-section {
       display: flex;
       justify-content: center;
@@ -421,9 +400,8 @@
       margin: auto;
     }
 
-    /* Individual Testimonial Box */
     .testimonial-box {
-      background-color: #F6E0F6; /* Light pastel pink */
+      background-color: #F6E0F6;
       padding: 30px;
       border-radius: 20px;
       max-width: 450px;
@@ -432,7 +410,6 @@
       transition: all 0.3s ease-in-out;
     }
 
-    /* Testimonial Title */
     .testimonial-box h3 {
       font-family: 'Young Serif', serif;
       font-size: 20px;
@@ -440,7 +417,6 @@
       margin-bottom: 10px;
     }
 
-    /* Testimonial Text */
     .testimonial-box p {
       font-family: 'Nunito Sans', sans-serif;
       font-size: 16px;
@@ -448,7 +424,6 @@
       line-height: 1.5;
     }
 
-    /* Star Rating */
     .star-rating {
       font-size: 22px;
       margin-top: 10px;
@@ -456,7 +431,7 @@
 
     /* FOOTER */
     .footer {
-      background-color: #B8E3FD; /* Blue background */
+      background-color: #B8E3FD;
       padding: 40px 20px;
       display: flex;
       align-items: center;
@@ -466,7 +441,7 @@
 
     .footer-left {
       display: flex;
-      flex-direction: column; /* Stack logo and links */
+      flex-direction: column;
     }
 
     .footer-logo {
@@ -487,7 +462,6 @@
       margin-bottom: 5px;
     }
 
-    /* Social Media Icons */
     .social-icons {
       display: flex;
       gap: 15px;
@@ -507,9 +481,10 @@
 
 
 
-    /* 📱 MOBILE RESPONSIVENESS */
+    /* MOBILE RESPONSIVENESS */
+
+
     @media (max-width: 768px) {
-      /* HEADER */
       .header-container {
         padding: 10px 0;
       }
@@ -529,6 +504,7 @@
         font-size: 14px;
       }
 
+
       /* HERO SECTION */
       .hero-section {
         background: url('images/background1.png') no-repeat center center/cover;
@@ -536,13 +512,12 @@
         height: 60vh;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start; /* Move content upwards */
+        justify-content: flex-start;
         align-items: center;
-        padding: 120px 20px 20px; /* Adjust padding */
+        padding: 120px 20px 20px;
         position: relative;
         text-align: center;
       }
-
 
       .main-title {
         font-size: 30px;
@@ -550,7 +525,6 @@
         position: static;
         z-index: 2;
       }
-
 
       .hero-subtitle {
         font-size: 15px;
@@ -560,14 +534,12 @@
         z-index: 2;
       }
 
-
       .hero-section img {
         width: 270px;
         height: auto;
         position: relative;
         z-index: 1;
       }
-
 
       .button-container {
         display: flex;
@@ -580,13 +552,11 @@
         z-index: 2;
       }
 
-
       .button {
         font-size: 18px;
         padding: 12px 25px;
         white-space: nowrap;
       }
-
 
       .subtext {
         font-size: 16px;
@@ -594,6 +564,7 @@
         color: gray;
       }
     }
+
 
     /* INFO SECTION */
     @media screen and (max-width: 768px) {
@@ -623,15 +594,17 @@
         padding: 10px 25px;
       }
     }
+
+
       /* MEDITATION SECTION */
     @media screen and (max-width: 768px) {
       .side-image {
-        display: none; /* Hide images only on mobile */
+        display: none;
       }
 
       .yellow-box {
-        width: 90%; /* Make the yellow box slightly smaller */
-        padding: 60px 20px; /* Reduce padding */
+        width: 90%;
+        padding: 60px 20px;
       }
 
     }
@@ -639,9 +612,9 @@
 
     @media screen and (max-width: 768px) {
       .reviews-section {
-        flex-direction: column; /* Stack elements vertically */
+        flex-direction: column;
         align-items: center;
-        text-align: center; /* Center text on small screens */
+        text-align: center;
         gap: 20px;
         padding: 30px;
       }
@@ -655,19 +628,19 @@
       .review-text {
         max-width: 90%;
         text-align: center;
-        align-items: center; /* Center text in mobile version */
+        align-items: center;
       }
 
 
       /* TESTIMONIALS */
       .testimonials-section {
-        flex-direction: column; /* Stack items vertically on mobile */
-        align-items: center; /* Center align for better layout */
+        flex-direction: column;
+        align-items: center;
       }
 
       .testimonial-box {
-        width: 90%; /* Make boxes take up full width on mobile */
-        max-width: 100%; /* Prevent overflow */
+        width: 90%;
+        max-width: 100%;
       }
     }
 
@@ -764,7 +737,6 @@
 </section>
 
 
-<!-- REVIEW SECTION -->
 <section class="reviews-section">
   <img src="images/kids.png" alt="High school students using Deeply">
   <div class="review-text">
@@ -776,7 +748,6 @@
   </div>
 </section>
 
-<!-- TESTIMONIALS SECTION -->
 <section class="testimonials-section">
   <div class="testimonial-box">
     <h3>Super chill and easy to use</h3>
